@@ -1,4 +1,9 @@
-sdjbjsdsaszcaghvsanajkgdgwjebfdmc s djhvwejhv
-sdjkbvcjhbsdm
-jksdvcj bsd
+# Simple Python code to multiply two numbers
 
+try:
+    num1 = float(input("Enter first number: "))
+    num2 = float(input("Enter second number: "))
+    result = num1 * num2
+    print("The product is:", result)
+except ValueError:
+    print("Please enter valid numbers.")
